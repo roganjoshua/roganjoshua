@@ -77,15 +77,22 @@ li{
 .jumbotron-fluid {
     padding: 0;
 }
-.carousel-item {
-  background-color: #080932;
+.carousel{
+  max-width: 900px;
+  margin: auto;
+}
+/*.carousel-item {
+  max-width: 80%;
+}*/
+
+.carousel-caption {
+  color: #dcdee6;
+  font-size: 80%;
+  bottom: 0px;
+  padding-bottom: 0px;
 }
 
-.carousel-item img{
-  
-}
-
-.carousel-item h3{
+.carousel-caption h3{
   color: #dcdee6;
 }
 /* PARALLAX
@@ -150,8 +157,12 @@ li{
 }
 
 .mortraits {
-    background-color: #f1dfb7;
+    /*background-color: #f1dfb7;*/
     color:#0a082d;
+}
+
+.mortimer .container{
+  margin-top: 2em;
 }
 
 .currentwork {
@@ -224,7 +235,7 @@ button.contact.submit:hover {
 
 .footer {
     background: #563d7c;
-    margin-top: 120px;
+    /*margin-top: 120px;*/
     position: relative
 }
 
