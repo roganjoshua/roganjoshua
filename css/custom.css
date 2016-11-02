@@ -165,7 +165,9 @@ li{
   margin-top: 2em;
   margin-bottom: 2em;
 }
-
+.mortimer h2{
+  color: whitesmoke;
+}
 .currentwork {
     background-color: #232e30;
     color:#0a082d;
